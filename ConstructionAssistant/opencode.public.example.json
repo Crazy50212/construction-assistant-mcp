@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "construction-assistant": {
+      "type": "local",
+      "command": ["node", "dist/index.js"],
+      "enabled": true,
+      "timeout": 90000,
+      "cwd": "."
+    }
+  }
+}
